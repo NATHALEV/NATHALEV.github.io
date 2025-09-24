@@ -8,6 +8,7 @@ h1 {
 }
 h2 {
     color: #6f8ead;
+    font-size: 20;
 }
 .about {
     background: #44596E;
@@ -24,4 +25,5 @@ h2 {
 .contacts {
     background: #44596E;
     text-align: center;
+    font-size: 10;
 }
