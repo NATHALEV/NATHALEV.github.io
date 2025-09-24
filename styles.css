@@ -6,19 +6,19 @@ h1 {
     color: #44596E;
     text-align: center;
 }
-.about {
+h2 {
     color: #44596E;
     text-align: center;
+}
+.about {
+    background: #ECF0F1;
 }
 .skills {
-    color: #44596E;
-    text-align: center;
+    background: #ECF0F1;
 }
 .projects {
-    color: #44596E;
-    text-align: center;
+    background: #ECF0F1;
 }
 .contacts {
-    color: #7F8C8D;
-    text-align: left;
+    background: #ECF0F1;
 }
