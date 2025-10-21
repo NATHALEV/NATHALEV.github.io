@@ -20,7 +20,10 @@ h2 {
 }
 .projects {
     background: #44596E;
-    text-align: center;
+    text-align: center; 
+    width: 30;
+    padding: 30 10;
+    border-radius: 25;
 }
 .contacts {
     background: #44596E;
