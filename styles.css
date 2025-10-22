@@ -1,9 +1,9 @@
 body {
     background: #2C3E50;
-    font-family: Georgia;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color: #44596E;
+    color: #ECF0F1;
     text-align: center;
 }
 h2 {
@@ -19,8 +19,12 @@ h2 {
     text-align: center;
 }
 .projects {
+    color: #bdc3c7;
     background: #44596E;
-    text-align: center;
+    text-align: center; 
+    width: 30;
+    padding: 30 10;
+    border-radius: 25;
 }
 .contacts {
     background: #44596E;
