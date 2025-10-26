@@ -26,11 +26,6 @@ h2 {
     padding: 30 10;
     border-radius: 25;
 }
-.contacts {
-    background: #44596E;
-    text-align: center;
-    font-size: 10;
-}
 .projects img {
     width: 300px;
     height: 300px;
@@ -39,11 +34,16 @@ h2 {
     display: block;
     margin: auto;
 }
-a { 
-    text-decoration: none;
-    color: #ECF0F1;
-}
 .projects p { 
     text-align: center;
     margin: 15px;
+}
+.contacts {
+    background: #44596E;
+    text-align: center;
+    font-size: 10;
+}
+a { 
+    text-decoration: none;
+    color: #ECF0F1;
 }
