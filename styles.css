@@ -30,6 +30,8 @@ h2 {
 
 .projects h2 {
     width:100%;
+    background: #44596E;
+    text-align: center;
 }
 
 .project {
