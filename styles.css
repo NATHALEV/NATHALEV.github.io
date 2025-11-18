@@ -15,7 +15,8 @@ h2 {
 
 .about {
     background: #44596E;
-    text-align: center;    
+    text-align: center;   
+    color: #ECF0F1; 
 }
 
 .skills {
@@ -26,6 +27,7 @@ h2 {
 .projects { 
 	display:flex; 
 	flex-wrap:wrap;  
+    gap: 5px;
 } 
 
 .projects h2 {
@@ -54,7 +56,8 @@ h2 {
 
 .project p { 
     text-align: center;
-    margin: 15px;
+    margin: 10px;
+    color: #ECF0F1;
 }
 
 .contacts {
