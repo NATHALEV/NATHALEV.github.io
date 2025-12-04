@@ -24,6 +24,7 @@ h2 {
 }
 
 .skills {
+    color: #ECF0F1;
     background: #44596E;
     text-align: center;
 }
@@ -32,6 +33,7 @@ h2 {
 	display:flex; 
 	flex-wrap:wrap;  
     gap: 5px;
+    justify-content: center;
 } 
 
 .projects h2 {
@@ -41,7 +43,7 @@ h2 {
 }
 
 .project {
-    color: #bdc3c7;
+    color: #BDC3C7;
     background: #44596E;
     text-align: center; 
     width: 30%;
