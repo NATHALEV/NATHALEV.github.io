@@ -5,6 +5,7 @@ title {
 body {
     background: #2C3E50;
     font-family: Arial, Helvetica, sans-serif;
+    aspect-ratio: 16/10;
 }
 
 h1 {
