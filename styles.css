@@ -35,8 +35,8 @@ h2 {
 .projects { 
 	display: grid;
     width: 350px;      
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1);
+    grid-template-rows: repeat(3, 1);
     place-items: center;
     gap: 5px;
 } 
@@ -63,6 +63,8 @@ h2 {
     color: #BDC3C7;
     background: #44596E;
     width: 30%;
+    padding: 25px 10px;
+    border-radius: 1%;
 }
 
 .project img {
