@@ -30,10 +30,11 @@ h2 {
     text-align: center;
 }
 
-.projects h2 {
-    width:100%;
-    background: #44596E;
-    text-align: center;
+.projects {
+    display:flex; 
+	flex-wrap:wrap;  
+    gap: 5px;
+    justify-content: center;
 }
 
 .project {
@@ -42,7 +43,7 @@ h2 {
     text-align: center; 
     width: 30%;
     padding: 25px 10px;
-    border-radius: 25%;
+    border-radius: 1%;
 }
 
 .projects h2 {
