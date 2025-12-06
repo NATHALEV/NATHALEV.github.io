@@ -16,6 +16,7 @@ h1 {
 h2 {
     color: #6f8ead;
     font-size: 20;
+    text-align: center; 
 }
 
 .about {
@@ -30,12 +31,25 @@ h2 {
     text-align: center;
 }
 
+/* AI Generated Code */
 .projects { 
-	display:flex; 
-	flex-wrap:wrap;  
+	display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     gap: 5px;
-    justify-content: center;
 } 
+
+.a { grid-column: 2; grid-row: 1; } /* top */
+.b { grid-column: 1; grid-row: 2; } /* left */
+.c { grid-column: 3; grid-row: 2; } /* right */
+.d { grid-column: 2; grid-row: 3; } /* bottom */
+
+.box {
+  background: #4a90e2;
+  width: 100px;
+  height: 100px;
+}
+/* AI Generated Code */
 
 .projects h2 {
     width:100%;
