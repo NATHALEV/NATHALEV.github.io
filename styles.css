@@ -41,22 +41,15 @@ h2 {
 
 /* AI Generated Code */
 .projects { 
-	display: flex;
-    flex-wrap: wrap;
     width: 250px;
     height: 250px;
-    margin: auto;
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    overflow: hidden;
+    margin: 40px auto;
 } 
-.a { grid-column: 2; grid-row: 1; } /* top */
-.b { grid-column: 1; grid-row: 2; } /* left */
-.c { grid-column: 3; grid-row: 2; } /* right */
-.d { grid-column: 2; grid-row: 3; } /* bottom */
-
-project:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%); }
-project:nth-child(2) { top: 50%; left: 0; transform: translateY(-50%); }
-project:nth-child(3) { top: 50%; right: 0; transform: translateY(-50%); }
-project:nth-child(4) { bottom: 0; left: 50%; transform: translateX(-50%); }
 /* AI Generated Code */
 
 .projects h2 {
