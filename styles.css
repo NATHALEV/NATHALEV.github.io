@@ -33,10 +33,12 @@ h2 {
 .project {
     color: #BDC3C7;
     background: #44596E;
-    width: 30%;
-    padding: 25px 10px;
-    border-radius: 1%;
-    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 /* AI Generated Code */
@@ -44,8 +46,6 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 300px;
-    height: 300px;
     margin: 40px auto;
     gap: 10px;
 } 
