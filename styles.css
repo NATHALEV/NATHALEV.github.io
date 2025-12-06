@@ -41,15 +41,19 @@ h2 {
 
 /* AI Generated Code */
 .projects { 
-    width: 250px;
-    height: 250px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    height: 300px;
     margin: 40px auto;
+    gap: 10px;
 } 
+
+.a {grid-column: 2; grid-row: 1; /* center top */}
+.b {grid-column: 1; grid-row: 2; /* left mid */}
+.c {grid-column: 3; grid-row: 2; /* right mid */}
+.d {grid-column: 2; grid-row: 3; /* center bottom */}
 /* AI Generated Code */
 
 .projects h2 {
