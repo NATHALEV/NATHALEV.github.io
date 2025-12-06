@@ -34,8 +34,10 @@ h2 {
 /* AI Generated Code */
 .projects { 
 	display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
+    width: 350px;      
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+     place-items: center;
     gap: 5px;
 } 
 
