@@ -30,31 +30,20 @@ h2 {
     text-align: center;
 }
 
+.projects h2 {
+    width:100%;
+    background: #44596E;
+    text-align: center;
+}
+
 .project {
     color: #BDC3C7;
     background: #44596E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    font-size: 1.4rem;
-    font-weight: bold;
+    text-align: center; 
+    width: 30%;
+    padding: 25px 10px;
+    border-radius: 25%;
 }
-
-/* AI Generated Code */
-.projects { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 40px auto;
-    gap: 10px;
-} 
-
-.a {grid-column: 2; grid-row: 1; /* center top */}
-.b {grid-column: 1; grid-row: 2; /* left mid */}
-.c {grid-column: 3; grid-row: 2; /* right mid */}
-.d {grid-column: 2; grid-row: 3; /* center bottom */}
-/* AI Generated Code */
 
 .projects h2 {
     width:100%;
