@@ -31,35 +31,26 @@ h2 {
     text-align: center;
 }
 
-.project {
-    color: #BDC3C7;
-    background: #44596E;
-    width: 30%;
-    padding: 25px 10px;
-    border-radius: 1%;
-    position:absolute;
-}
-
-/* AI Generated Code */
 .projects { 
-	display: flex;
-    flex-wrap: wrap;
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    position: relative;
+	display:flex; 
+	flex-wrap:wrap;  
+    gap: 5px;
+    justify-content: center;
 } 
-
-project:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%); }
-project:nth-child(2) { top: 50%; left: 0; transform: translateY(-50%); }
-project:nth-child(3) { top: 50%; right: 0; transform: translateY(-50%); }
-project:nth-child(4) { bottom: 0; left: 50%; transform: translateX(-50%); }
-/* AI Generated Code */
 
 .projects h2 {
     width:100%;
     background: #44596E;
     text-align: center;
+}
+
+.project {
+    color: #BDC3C7;
+    background: #44596E;
+    text-align: center; 
+    width: 30%;
+    padding: 25px 10px;
+    border-radius: 1%;
 }
 
 .project img {
